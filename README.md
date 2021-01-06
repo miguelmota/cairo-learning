@@ -1,6 +1,6 @@
 # Cairo Learning
 
-> Learning notes on [Cairo lang](https://www.cairo-lang.org/)
+> [Cairo lang](https://www.cairo-lang.org/) learning notes
 
 ## Environment
 
@@ -20,9 +20,21 @@ cairo-compile app.cairo --output app_compiled.json
 Running:
 
 ```bash
-cairo-run \
-  --program=app_compiled.json --print_output \
-  --print_info --relocate_prints --print_memory
+cairo-run --program=app_compiled.json --print_output --print_info --relocate_prints --print_memory
+```
+
+Format:
+
+```bash
+cairo-format -i app.cairo
+```
+
+## Examples
+
+There's a make helper for running examples in repo, e.g. running `fib.cairo`:
+
+```bash
+make run name=fib
 ```
 
 ## Notes
@@ -51,7 +63,7 @@ cairo-run \
 - `fp'`frame pointer - points to frame of the current function.
 - `pc` program counter - points to the current instruction
 - `%[ <pythone-code> %]` evaluates python code, e.g. `const value = %[ 2 * 3 %] + 100`
-- `...` will cancel the arguments check and use args from stack instead, i.e. `bar(); foo(..., y=5)` where _bar -> x=4_
+- `...` will cancel the arguments check and use args from stack instead, i.e. `bar(); foo(..., y=5)` where _bar_ returns _4_
 - a _hint_ is a block of python code that will be executed by provder before the next instruction
 - hints are visible to the prover
 - access secret inputs in hint with `program_input['secret']`
