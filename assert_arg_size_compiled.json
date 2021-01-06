@@ -1,0 +1,406 @@
+{
+    "builtins": [],
+    "data": [
+        1226245742482522112,
+        7,
+        74168662805676031,
+        0,
+        5200109446503366656,
+        5209116645758107648,
+        2345108766317314046,
+        5189976364521848832,
+        4,
+        5189976364521848832,
+        5,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020474,
+        2345108766317314046
+    ],
+    "debug_info": {
+        "file_contents": {
+            "<start>": "__start__:\ncall main\n\n__end__:\njmp rel 0\n"
+        },
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 2
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 2
+                }
+            },
+            "5": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 3,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 3
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 4
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.args": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 9
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.args": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 19,
+                    "end_line": 10,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 10
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.main.args": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 25,
+                    "end_line": 15,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 15
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.main.args": 2,
+                        "__main__.main.foo_ret": 3
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "assert_arg_size.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 16
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.__end__": {
+            "pc": 2,
+            "type": "label"
+        },
+        "__main__.__start__": {
+            "pc": 0,
+            "type": "label"
+        },
+        "__main__.foo": {
+            "pc": 4,
+            "type": "label"
+        },
+        "__main__.foo.Args.SIZE": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.foo.Args.x": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.foo.Args.y": {
+            "cairo_type": "felt",
+            "offset": 1,
+            "type": "member"
+        },
+        "__main__.foo.Return.SIZE": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.foo.Return.w": {
+            "cairo_type": "felt",
+            "offset": 1,
+            "type": "member"
+        },
+        "__main__.foo.Return.z": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.foo.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.foo.x": {
+            "full_name": "__main__.foo.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "cast([fp + (-4)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.y": {
+            "full_name": "__main__.foo.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "cast([fp + (-3)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "pc": 7,
+            "type": "label"
+        },
+        "__main__.main.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.Return.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.args": {
+            "full_name": "__main__.main.args",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "cast(ap, __main__.foo.Args*)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.foo_ret": {
+            "full_name": "__main__.main.foo_ret",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 6
+                    },
+                    "pc": 13,
+                    "value": "cast([ap + (-2)], __main__.foo.Return)"
+                }
+            ],
+            "type": "reference"
+        }
+    },
+    "main_scope": "__main__",
+    "prime": 3618502788666131213697322783095070105623107215331596699973092056135872020481,
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "cast([fp + (-4)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "cast([fp + (-3)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "cast(ap, __main__.foo.Args*)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 6
+                },
+                "pc": 13,
+                "value": "cast([ap + (-2)], __main__.foo.Return)"
+            }
+        ]
+    }
+}

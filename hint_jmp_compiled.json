@@ -1,0 +1,406 @@
+{
+    "builtins": [],
+    "data": [
+        1226245742482522112,
+        14,
+        74168662805676031,
+        0,
+        722405534170316800,
+        5,
+        5207990763031199744,
+        1809251394333065606848661391547535052811553607665798349986546028067936010241,
+        2345108766317314046,
+        5198983563776458752,
+        3618502788666131213697322783095070105623107215331596699973092056135872020480,
+        5207427813077909504,
+        1809251394333065606848661391547535052811553607665798349986546028067936010241,
+        2345108766317314046,
+        5189976364521848832,
+        2,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020469,
+        2345108766317314046
+    ],
+    "debug_info": {
+        "file_contents": {
+            "<start>": "__start__:\ncall main\n\n__end__:\njmp rel 0\n"
+        },
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 2
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": {
+                    "location": {
+                        "end_col": 33,
+                        "end_line": 2,
+                        "input_file": {
+                            "filename": "hint_jmp.cairo"
+                        },
+                        "start_col": 3,
+                        "start_line": 2
+                    },
+                    "n_prefix_newlines": 0
+                },
+                "inst": {
+                    "end_col": 29,
+                    "end_line": 3,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 3
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 7
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 8
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 12,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 12
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 28,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 13
+                }
+            },
+            "13": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.div2"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.div2.x": 0
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 14
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 9,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 8,
+                    "start_line": 18
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 18,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 18
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 19,
+                    "input_file": {
+                        "filename": "hint_jmp.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 19
+                }
+            }
+        }
+    },
+    "hints": {
+        "4": {
+            "accessible_scopes": [
+                "__main__",
+                "__main__.div2"
+            ],
+            "code": "memory[ap] = (ids.x % 2)",
+            "flow_tracking_data": {
+                "ap_tracking": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "reference_ids": {
+                    "__main__.div2.x": 0
+                }
+            }
+        }
+    },
+    "identifiers": {
+        "__main__.__end__": {
+            "pc": 2,
+            "type": "label"
+        },
+        "__main__.__start__": {
+            "pc": 0,
+            "type": "label"
+        },
+        "__main__.div2": {
+            "pc": 4,
+            "type": "label"
+        },
+        "__main__.div2.Args.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.div2.Args.x": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.div2.Return.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.div2.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.div2.even": {
+            "pc": 6,
+            "type": "label"
+        },
+        "__main__.div2.odd": {
+            "pc": 9,
+            "type": "label"
+        },
+        "__main__.div2.x": {
+            "full_name": "__main__.div2.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "pc": 4,
+                    "value": "cast([fp + (-3)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "pc": 14,
+            "type": "label"
+        },
+        "__main__.main.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.Return.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": 3618502788666131213697322783095070105623107215331596699973092056135872020481,
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "pc": 4,
+                "value": "cast([fp + (-3)], felt)"
+            }
+        ]
+    }
+}

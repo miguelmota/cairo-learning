@@ -1,0 +1,26 @@
+cairo-compile program_input.cairo --output program_input_compiled.json
+cairo-run --program=program_input_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory --program_input=program_input.json
+Addr  Value
+-----------
+0     1226245742482522112
+1     4
+2     74168662805676031
+3     0
+4     5193354059947409408
+5     2345108766317314046
+6     9
+7     9
+8     1234
+
+Number of steps: 2 (originally, 2)
+Used memory cells: 9
+Register values after execution:
+pc = 9
+ap = 9
+fp = 9
+    
+Segment relocation table:
+0     0
+1     6
+2     9
+3     9

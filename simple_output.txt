@@ -1,0 +1,19 @@
+cairo-compile simple.cairo --output simple_compiled.json
+cairo-run --program=simple_compiled.json --print_output --layout=small --print_info --relocate_prints
+Program output:
+  1234
+  4321
+
+Number of steps: 6 (originally, 6)
+Used memory cells: 21
+Register values after execution:
+pc = 21
+ap = 19
+fp = 21
+    
+Segment relocation table:
+0     0
+1     13
+2     19
+3     21
+4     21

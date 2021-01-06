@@ -1,0 +1,20 @@
+cairo-compile division.cairo --output division_compiled.json
+cairo-run --program=division_compiled.json --print_output --layout=small --print_info --relocate_prints
+Program output:
+  2
+  1206167596222043737899107594365023368541035738443865566657697352045290673496
+  7
+
+Number of steps: 8 (originally, 8)
+Used memory cells: 26
+Register values after execution:
+pc = 26
+ap = 23
+fp = 26
+    
+Segment relocation table:
+0     0
+1     16
+2     23
+3     26
+4     26

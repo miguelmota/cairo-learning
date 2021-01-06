@@ -1,0 +1,47 @@
+cairo-compile return_unpacking.cairo --output return_unpacking_compiled.json
+cairo-run --program=return_unpacking_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+Addr  Value
+-----------
+0     1226245742482522112
+1     7
+2     74168662805676031
+3     0
+4     5200109446503366656
+5     5209116645758107648
+6     2345108766317314046
+7     290341444919459839
+8     2
+9     5189976364521848832
+10    4
+11    5189976364521848832
+12    5
+13    1226245742482522112
+14    -9
+15    4617174774030761984
+16    4617174778325729281
+17    5200109463683497984
+18    2345108766317314046
+19    30
+20    30
+21    9
+22    20
+23    4
+24    5
+25    21
+26    15
+27    9
+28    20
+29    29
+
+Number of steps: 11 (originally, 11)
+Used memory cells: 30
+Register values after execution:
+pc = 30
+ap = 30
+fp = 30
+    
+Segment relocation table:
+0     0
+1     19
+2     30
+3     30

@@ -1,0 +1,29 @@
+cairo-compile hint_square_root.cairo --output hint_square_root_compiled.json
+cairo-run --program=hint_square_root_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+Addr  Value
+-----------
+0     1226245742482522112
+1     4
+2     74168662805676031
+3     0
+4     5189976364521848832
+5     25
+6     5210805508503535615
+7     2345108766317314046
+8     12
+9     12
+10    25
+11    5
+
+Number of steps: 3 (originally, 3)
+Used memory cells: 12
+Register values after execution:
+pc = 12
+ap = 12
+fp = 12
+    
+Segment relocation table:
+0     0
+1     8
+2     12
+3     12

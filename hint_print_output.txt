@@ -1,0 +1,25 @@
+cairo-compile hint_print.cairo --output hint_print_compiled.json
+cairo-run --program=hint_print_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+hello world
+Addr  Value
+-----------
+0     1226245742482522112
+1     4
+2     74168662805676031
+3     0
+4     2345108766317314046
+5     7
+6     7
+
+Number of steps: 1 (originally, 1)
+Used memory cells: 7
+Register values after execution:
+pc = 7
+ap = 7
+fp = 7
+    
+Segment relocation table:
+0     0
+1     5
+2     7
+3     7

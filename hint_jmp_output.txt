@@ -1,0 +1,43 @@
+cairo-compile hint_jmp.cairo --output hint_jmp_compiled.json
+cairo-run --program=hint_jmp_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+Addr  Value
+-----------
+0     1226245742482522112
+1     14
+2     74168662805676031
+3     0
+4     722405534170316800
+5     5
+6     5207990763031199744
+7     -1809251394333065606848661391547535052811553607665798349986546028067936010240
+8     2345108766317314046
+9     5198983563776458752
+10    -1
+11    5207427813077909504
+12    -1809251394333065606848661391547535052811553607665798349986546028067936010240
+13    2345108766317314046
+14    5189976364521848832
+15    2
+16    1226245742482522112
+17    -12
+18    2345108766317314046
+19    26
+20    26
+21    2
+22    21
+23    18
+24    0
+25    1
+
+Number of steps: 6 (originally, 6)
+Used memory cells: 26
+Register values after execution:
+pc = 26
+ap = 26
+fp = 26
+    
+Segment relocation table:
+0     0
+1     19
+2     26
+3     26

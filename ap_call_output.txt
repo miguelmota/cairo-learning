@@ -1,0 +1,39 @@
+cairo-compile ap_call.cairo --output ap_call_compiled.json
+cairo-run --program=ap_call_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+Addr  Value
+-----------
+0     1226245742482522112
+1     7
+2     74168662805676031
+3     0
+4     5200109446503366656
+5     5209116645758107648
+6     2345108766317314046
+7     5189976364521848832
+8     4
+9     5189976364521848832
+10    5
+11    1226245742482522112
+12    -7
+13    2345108766317314046
+14    22
+15    22
+16    4
+17    5
+18    16
+19    13
+20    9
+21    20
+
+Number of steps: 7 (originally, 7)
+Used memory cells: 22
+Register values after execution:
+pc = 22
+ap = 22
+fp = 22
+    
+Segment relocation table:
+0     0
+1     14
+2     22
+3     22

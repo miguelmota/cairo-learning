@@ -1,0 +1,423 @@
+{
+    "builtins": [],
+    "data": [
+        1226245742482522112,
+        10,
+        74168662805676031,
+        0,
+        5189976364521848832,
+        4,
+        2345108766317314046,
+        5200109446503366656,
+        5209116645758107648,
+        2345108766317314046,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020475,
+        5189976364521848832,
+        5,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020474,
+        2345108766317314046
+    ],
+    "debug_info": {
+        "file_contents": {
+            "<start>": "__start__:\ncall main\n\n__end__:\njmp rel 0\n"
+        },
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 2
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.bar"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 14,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 13,
+                    "start_line": 2
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.bar"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 2
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 6,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 6
+                }
+            },
+            "8": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 7,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 7
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.foo"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.foo.x": 0,
+                        "__main__.foo.y": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 8
+                }
+            },
+            "10": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 8,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 13
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 3
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 15,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 14,
+                    "start_line": 16
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 4
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 16,
+                    "end_line": 16,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 16
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 8
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 17,
+                    "input_file": {
+                        "filename": "cancel.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 17
+                }
+            }
+        }
+    },
+    "hints": {},
+    "identifiers": {
+        "__main__.__end__": {
+            "pc": 2,
+            "type": "label"
+        },
+        "__main__.__start__": {
+            "pc": 0,
+            "type": "label"
+        },
+        "__main__.bar": {
+            "pc": 4,
+            "type": "label"
+        },
+        "__main__.bar.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.bar.Return.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.bar.Return.x": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.bar.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.foo": {
+            "pc": 7,
+            "type": "label"
+        },
+        "__main__.foo.Args.SIZE": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.foo.Args.x": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.foo.Args.y": {
+            "cairo_type": "felt",
+            "offset": 1,
+            "type": "member"
+        },
+        "__main__.foo.Return.SIZE": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.foo.Return.w": {
+            "cairo_type": "felt",
+            "offset": 1,
+            "type": "member"
+        },
+        "__main__.foo.Return.z": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.foo.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.foo.x": {
+            "full_name": "__main__.foo.x",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "cast([fp + (-4)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.foo.y": {
+            "full_name": "__main__.foo.y",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "cast([fp + (-3)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "pc": 10,
+            "type": "label"
+        },
+        "__main__.main.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.Return.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": 3618502788666131213697322783095070105623107215331596699973092056135872020481,
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "cast([fp + (-4)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "cast([fp + (-3)], felt)"
+            }
+        ]
+    }
+}

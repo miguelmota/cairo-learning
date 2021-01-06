@@ -1,0 +1,142 @@
+{
+    "builtins": [],
+    "data": [
+        1226245742482522112,
+        4,
+        74168662805676031,
+        0,
+        2345108766317314046
+    ],
+    "debug_info": {
+        "file_contents": {
+            "<start>": "__start__:\ncall main\n\n__end__:\njmp rel 0\n"
+        },
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 2
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": {
+                    "location": {
+                        "end_col": 5,
+                        "end_line": 4,
+                        "input_file": {
+                            "filename": "hint_print.cairo"
+                        },
+                        "start_col": 3,
+                        "start_line": 2
+                    },
+                    "n_prefix_newlines": 1
+                },
+                "inst": {
+                    "end_col": 6,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "hint_print.cairo"
+                    },
+                    "start_col": 3,
+                    "start_line": 5
+                }
+            }
+        }
+    },
+    "hints": {
+        "4": {
+            "accessible_scopes": [
+                "__main__",
+                "__main__.main"
+            ],
+            "code": "print(\"hello world\")",
+            "flow_tracking_data": {
+                "ap_tracking": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "reference_ids": {}
+            }
+        }
+    },
+    "identifiers": {
+        "__main__.__end__": {
+            "pc": 2,
+            "type": "label"
+        },
+        "__main__.__start__": {
+            "pc": 0,
+            "type": "label"
+        },
+        "__main__.main": {
+            "pc": 4,
+            "type": "label"
+        },
+        "__main__.main.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.Return.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": 3618502788666131213697322783095070105623107215331596699973092056135872020481,
+    "reference_manager": {
+        "references": []
+    }
+}

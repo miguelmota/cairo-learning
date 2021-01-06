@@ -1,0 +1,19 @@
+cairo-compile array_sum.cairo --output array_sum_compiled.json
+cairo-run --program=array_sum_compiled.json --print_output --layout=small --print_info --relocate_prints
+Program output:
+  50
+
+Number of steps: 39 (originally, 39)
+Used memory cells: 78
+Register values after execution:
+pc = 75
+ap = 74
+fp = 75
+    
+Segment relocation table:
+0     0
+1     41
+2     74
+3     75
+4     75
+5     75

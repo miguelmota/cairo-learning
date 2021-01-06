@@ -1,0 +1,1124 @@
+{
+    "builtins": [
+        "output"
+    ],
+    "data": [
+        1226245742482522112,
+        21,
+        74168662805676031,
+        0,
+        290341444919459839,
+        1,
+        2345108766317314046,
+        146226256843603965,
+        5,
+        5189976364521848832,
+        0,
+        2345108766317314046,
+        5198983563776393216,
+        1,
+        5198983563776458752,
+        3618502788666131213697322783095070105623107215331596699973092056135872020480,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020472,
+        5188850460319842304,
+        5201798300658794496,
+        2345108766317314046,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020464,
+        5189976364521848832,
+        9,
+        4611826758063128575,
+        5189976364521848832,
+        16,
+        4611826762358030335,
+        5189976364521848832,
+        25,
+        4611826766652932095,
+        5193354042767540224,
+        5189976364521848832,
+        3,
+        1226245742482522112,
+        3618502788666131213697322783095070105623107215331596699973092056135872020453,
+        4612389708016484351,
+        5198983563776458752,
+        1,
+        2345108766317314046
+    ],
+    "debug_info": {
+        "file_contents": {
+            "<start>": "__start__:\ncall main\n\n__end__:\njmp rel 0\n"
+        },
+        "instruction_locations": {
+            "0": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 0,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 2,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 2
+                }
+            },
+            "2": {
+                "accessible_scopes": [
+                    "__main__"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 1,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 10,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "<start>"
+                    },
+                    "start_col": 1,
+                    "start_line": 5
+                }
+            },
+            "4": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.alloc",
+                    "starkware.cairo.common.alloc.alloc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 0
+                    },
+                    "reference_ids": {}
+                },
+                "hint": {
+                    "location": {
+                        "end_col": 38,
+                        "end_line": 3,
+                        "input_file": {
+                            "filename": "/home/mota/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                        },
+                        "start_col": 5,
+                        "start_line": 3
+                    },
+                    "n_prefix_newlines": 0
+                },
+                "inst": {
+                    "end_col": 12,
+                    "end_line": 4,
+                    "input_file": {
+                        "filename": "/home/mota/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 4
+                }
+            },
+            "6": {
+                "accessible_scopes": [
+                    "starkware.cairo.common.alloc",
+                    "starkware.cairo.common.alloc.alloc"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 2,
+                        "offset": 1
+                    },
+                    "reference_ids": {}
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 17,
+                    "end_line": 5,
+                    "input_file": {
+                        "filename": "/home/mota/cairo_venv/lib/python3.9/site-packages/starkware/cairo/common/alloc.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 5
+                }
+            },
+            "7": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 7,
+                    "end_line": 8,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 8
+                }
+            },
+            "9": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 21,
+                    "start_line": 9
+                }
+            },
+            "11": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 23,
+                    "end_line": 9,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 9,
+                    "start_line": 9
+                }
+            },
+            "12": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 46,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 39,
+                    "start_line": 13
+                }
+            },
+            "14": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 61,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 53,
+                    "start_line": 13
+                }
+            },
+            "16": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 3,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 62,
+                    "end_line": 13,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 25,
+                    "start_line": 13
+                }
+            },
+            "18": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.__temp0": 3,
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1,
+                        "__main__.array_sum.sum_of_rest": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 22,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 14
+                }
+            },
+            "19": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.__temp0": 3,
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1,
+                        "__main__.array_sum.sum_of_rest": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 36,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 14
+                }
+            },
+            "20": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.array_sum"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 4,
+                        "offset": 2
+                    },
+                    "reference_ids": {
+                        "__main__.array_sum.__temp0": 3,
+                        "__main__.array_sum.arr": 0,
+                        "__main__.array_sum.size": 1,
+                        "__main__.array_sum.sum_of_rest": 2
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 37,
+                    "end_line": 14,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 14
+                }
+            },
+            "21": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.output_ptr": 4
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 24,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 21
+                }
+            },
+            "23": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 3
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 20,
+                    "start_line": 24
+                }
+            },
+            "25": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 21,
+                    "end_line": 24,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 24
+                }
+            },
+            "26": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 4
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 25,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 24,
+                    "start_line": 25
+                }
+            },
+            "28": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 25,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 25
+                }
+            },
+            "29": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 5
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 26,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 24,
+                    "start_line": 26
+                }
+            },
+            "31": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 26,
+                    "end_line": 26,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 26
+                }
+            },
+            "32": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 6
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 13,
+                    "end_line": 21,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "parent_location": [
+                        {
+                            "end_col": 34,
+                            "end_line": 29,
+                            "input_file": {
+                                "filename": "array_sum.cairo"
+                            },
+                            "start_col": 31,
+                            "start_line": 29
+                        },
+                        "While expanding the reference 'ptr' in:"
+                    ],
+                    "start_col": 10,
+                    "start_line": 21
+                }
+            },
+            "33": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 7
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 51,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 41,
+                    "start_line": 29
+                }
+            },
+            "35": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 5,
+                        "offset": 8
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 52,
+                    "end_line": 29,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 17,
+                    "start_line": 29
+                }
+            },
+            "37": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 30,
+                    "end_line": 32,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 32
+                }
+            },
+            "38": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 38,
+                    "end_line": 35,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 24,
+                    "start_line": 35
+                }
+            },
+            "40": {
+                "accessible_scopes": [
+                    "__main__",
+                    "__main__.main"
+                ],
+                "flow_tracking_data": {
+                    "ap_tracking": {
+                        "group": 6,
+                        "offset": 1
+                    },
+                    "reference_ids": {
+                        "__main__.main.__temp1": 6,
+                        "__main__.main.__temp2": 7,
+                        "__main__.main.__temp3": 8,
+                        "__main__.main.output_ptr": 4,
+                        "__main__.main.ptr": 5,
+                        "__main__.main.sum": 9
+                    }
+                },
+                "hint": null,
+                "inst": {
+                    "end_col": 39,
+                    "end_line": 35,
+                    "input_file": {
+                        "filename": "array_sum.cairo"
+                    },
+                    "start_col": 5,
+                    "start_line": 35
+                }
+            }
+        }
+    },
+    "hints": {
+        "4": {
+            "accessible_scopes": [
+                "starkware.cairo.common.alloc",
+                "starkware.cairo.common.alloc.alloc"
+            ],
+            "code": "memory[ap] = segments.add()",
+            "flow_tracking_data": {
+                "ap_tracking": {
+                    "group": 2,
+                    "offset": 0
+                },
+                "reference_ids": {}
+            }
+        }
+    },
+    "identifiers": {
+        "__main__.__end__": {
+            "pc": 2,
+            "type": "label"
+        },
+        "__main__.__start__": {
+            "pc": 0,
+            "type": "label"
+        },
+        "__main__.alloc": {
+            "destination": "starkware.cairo.common.alloc.alloc",
+            "type": "alias"
+        },
+        "__main__.array_sum": {
+            "pc": 7,
+            "type": "label"
+        },
+        "__main__.array_sum.Args.SIZE": {
+            "type": "const",
+            "value": 2
+        },
+        "__main__.array_sum.Args.arr": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.array_sum.Args.size": {
+            "cairo_type": "felt",
+            "offset": 1,
+            "type": "member"
+        },
+        "__main__.array_sum.Return.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.array_sum.Return.sum": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.array_sum.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.array_sum.__temp0": {
+            "full_name": "__main__.array_sum.__temp0",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 18,
+                    "value": "cast([ap], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum._anon_label0": {
+            "pc": 12,
+            "type": "label"
+        },
+        "__main__.array_sum._anon_label1": {
+            "pc": 12,
+            "type": "label"
+        },
+        "__main__.array_sum.arr": {
+            "full_name": "__main__.array_sum.arr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "cast([fp + (-4)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum.size": {
+            "full_name": "__main__.array_sum.size",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 3,
+                        "offset": 0
+                    },
+                    "pc": 7,
+                    "value": "cast([fp + (-3)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.array_sum.sum_of_rest": {
+            "full_name": "__main__.array_sum.sum_of_rest",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 4,
+                        "offset": 0
+                    },
+                    "pc": 18,
+                    "value": "cast([ap + (-1)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main": {
+            "pc": 21,
+            "type": "label"
+        },
+        "__main__.main.ARRAY_SIZE": {
+            "type": "const",
+            "value": 3
+        },
+        "__main__.main.Args.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.main.Args.output_ptr": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.main.Return.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "__main__.main.Return.output_ptr": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "__main__.main.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        },
+        "__main__.main.__temp1": {
+            "full_name": "__main__.main.__temp1",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 3
+                    },
+                    "pc": 23,
+                    "value": "cast([ap], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.__temp2": {
+            "full_name": "__main__.main.__temp2",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 4
+                    },
+                    "pc": 26,
+                    "value": "cast([ap], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.__temp3": {
+            "full_name": "__main__.main.__temp3",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 5
+                    },
+                    "pc": 29,
+                    "value": "cast([ap], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.output_ptr": {
+            "full_name": "__main__.main.output_ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 0
+                    },
+                    "pc": 21,
+                    "value": "cast([fp + (-3)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.ptr": {
+            "full_name": "__main__.main.ptr",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 5,
+                        "offset": 3
+                    },
+                    "pc": 23,
+                    "value": "cast([ap + (-1)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "__main__.main.sum": {
+            "full_name": "__main__.main.sum",
+            "references": [
+                {
+                    "ap_tracking_data": {
+                        "group": 6,
+                        "offset": 0
+                    },
+                    "pc": 37,
+                    "value": "cast([ap + (-1)], felt)"
+                }
+            ],
+            "type": "reference"
+        },
+        "starkware.cairo.common.alloc.alloc": {
+            "pc": 4,
+            "type": "label"
+        },
+        "starkware.cairo.common.alloc.alloc.Args.SIZE": {
+            "type": "const",
+            "value": 0
+        },
+        "starkware.cairo.common.alloc.alloc.Return.SIZE": {
+            "type": "const",
+            "value": 1
+        },
+        "starkware.cairo.common.alloc.alloc.Return.ptr": {
+            "cairo_type": "felt",
+            "offset": 0,
+            "type": "member"
+        },
+        "starkware.cairo.common.alloc.alloc.SIZEOF_LOCALS": {
+            "type": "const",
+            "value": 0
+        }
+    },
+    "main_scope": "__main__",
+    "prime": 3618502788666131213697322783095070105623107215331596699973092056135872020481,
+    "reference_manager": {
+        "references": [
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "cast([fp + (-4)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 3,
+                    "offset": 0
+                },
+                "pc": 7,
+                "value": "cast([fp + (-3)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 18,
+                "value": "cast([ap + (-1)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 4,
+                    "offset": 0
+                },
+                "pc": 18,
+                "value": "cast([ap], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 0
+                },
+                "pc": 21,
+                "value": "cast([fp + (-3)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 3
+                },
+                "pc": 23,
+                "value": "cast([ap + (-1)], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 3
+                },
+                "pc": 23,
+                "value": "cast([ap], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 4
+                },
+                "pc": 26,
+                "value": "cast([ap], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 5,
+                    "offset": 5
+                },
+                "pc": 29,
+                "value": "cast([ap], felt)"
+            },
+            {
+                "ap_tracking_data": {
+                    "group": 6,
+                    "offset": 0
+                },
+                "pc": 37,
+                "value": "cast([ap + (-1)], felt)"
+            }
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+cairo-compile dots.cairo --output dots_compiled.json
+cairo-run --program=dots_compiled.json --print_output --layout=small --print_info --relocate_prints --print_memory
+Addr  Value
+-----------
+0     1226245742482522112
+1     10
+2     74168662805676031
+3     0
+4     5189976364521848832
+5     4
+6     2345108766317314046
+7     5200109446503366656
+8     5209116645758107648
+9     2345108766317314046
+10    1226245742482522112
+11    -6
+12    5189976364521848832
+13    5
+14    1226245742482522112
+15    -7
+16    2345108766317314046
+17    27
+18    27
+19    19
+20    12
+21    4
+22    5
+23    19
+24    16
+25    9
+26    20
+
+Number of steps: 9 (originally, 9)
+Used memory cells: 27
+Register values after execution:
+pc = 27
+ap = 27
+fp = 27
+    
+Segment relocation table:
+0     0
+1     17
+2     27
+3     27
